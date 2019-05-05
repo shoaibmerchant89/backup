@@ -1,13 +1,13 @@
 
 !
-! Last configuration change at 08:23:20 EET Sun May 5 2019
+! Last configuration change at 18:25:20 EET Sun May 5 2019
 !
 service timestamps debug datetime msec
 service timestamps log datetime msec
 no service password-encryption
 service compress-config
 !
-hostname ios00002
+hostname ios02
 !
 boot-start-marker
 boot-end-marker
