@@ -7,7 +7,7 @@ service timestamps log datetime msec
 no service password-encryption
 service compress-config
 !
-hostname ios000001
+hostname ios01
 !
 boot-start-marker
 boot-end-marker
