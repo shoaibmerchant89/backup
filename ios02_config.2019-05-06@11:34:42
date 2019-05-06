@@ -1,13 +1,11 @@
 
 !
-! Last configuration change at 20:39:57 EET Sun May 5 2019 by admin
-!
 service timestamps debug datetime msec
 service timestamps log datetime msec
 no service password-encryption
 service compress-config
 !
-hostname ios01
+hostname ios02
 !
 boot-start-marker
 boot-end-marker
@@ -50,7 +48,7 @@ vlan internal allocation policy ascending
 !
 interface Ethernet0/0
  no switchport
- ip address 192.168.1.101 255.255.255.0
+ ip address 192.168.1.102 255.255.255.0
 !
 interface Ethernet0/1
  duplex auto
@@ -64,8 +62,6 @@ interface Ethernet0/3
 !
 no ip http server
 !
-ip route 0.0.0.0 0.0.0.0 192.168.1.2
-ip route 0.0.0.0 0.0.0.0 192.168.1.1
 !
 !
 !
