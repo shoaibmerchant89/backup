@@ -1,5 +1,7 @@
 
 !
+! Last configuration change at 12:14:08 EET Wed May 8 2019
+!
 service timestamps debug datetime msec
 service timestamps log datetime msec
 no service password-encryption
@@ -78,4 +80,6 @@ line vty 0 4
  login local
  transport input telnet ssh
 !
+ntp source Ethernet0/0
+ntp server 1.1.1.1
 end
