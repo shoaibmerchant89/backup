@@ -1,8 +1,6 @@
 
 !
-! Last configuration change at 12:14:08 EET Wed May 8 2019
-!
-service timestamps debug datetime msec
+service timestamps debug datetime
 service timestamps log datetime msec
 no service password-encryption
 service compress-config
@@ -13,6 +11,7 @@ boot-start-marker
 boot-end-marker
 !
 !
+logging buffered warnings
 !
 username admin privilege 15 password 0 Labrat@123
 no aaa new-model
@@ -82,4 +81,5 @@ line vty 0 4
 !
 ntp source Ethernet0/0
 ntp server 1.1.1.1
+ntp server 2.2.2.2
 end
