@@ -1,7 +1,5 @@
 
 !
-! Last configuration change at 07:12:02 EET Fri May 17 2019
-!
 service timestamps debug datetime
 service timestamps log datetime msec
 no service password-encryption
